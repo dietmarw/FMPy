@@ -6,7 +6,7 @@ def generate_examples():
 
     ref_fmu_version = 0.0.27
     url = r'https://github.com/modelica/Reference-FMUs/releases/download/v{ref_fmu_version}/Reference-FMUs-{ref_fmu_version}.zip'
-    checksum = '62e1a89c7e05b67857e5ebb834502dc06466b04cd14065fd72b2af2e3c9aea8d'
+    checksum = '0b5ef7929e41019296f08cdbbd733a82f32a57c3af153c2d72dbae40ac95f1fe'
     archive = download_file(url=url, checksum=checksum)
 
     dist = Path(extract(archive))
