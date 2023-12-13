@@ -4,7 +4,7 @@ def generate_examples():
     from ..util import download_file
     from pathlib import Path
 
-    ref_fmu_version = 0.0.27
+    ref_fmu_version = "0.0.27"
     url = r'https://github.com/modelica/Reference-FMUs/releases/download/v{ref_fmu_version}/Reference-FMUs-{ref_fmu_version}.zip'
     checksum = '0b5ef7929e41019296f08cdbbd733a82f32a57c3af153c2d72dbae40ac95f1fe'
     archive = download_file(url=url, checksum=checksum)
